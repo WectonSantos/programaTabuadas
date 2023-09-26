@@ -1,0 +1,111 @@
+body{
+    background-color: #5a79bb;
+    
+} 
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    -webkit-text-stroke: 0.4px #0c0c0c;
+
+}
+
+.conteudoD{
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+    width: 300px;
+}
+
+
+.botaoLimpar{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    color: #fff;
+    background: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22.8px;
+    padding: 2px 20px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    :hover{
+        color: #000;
+        background: rgb(255, 218, 87);
+    }
+    
+
+}
+
+.botaoIr{
+    
+
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1px;
+    padding: 12px 10px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    :hover{
+        background: rgb(251, 193, 245);
+    }
+    
+
+}
+
+#opcao{
+    height: 22px;
+}
+
+
+#selecioneTab{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+
+.conteudoE{
+    text-align: justify;
+    display: flex;    
+    justify-content: center;
+}
+
+.regras{
+    text-align: justify;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    -webkit-text-stroke: 0.4px #0c0c0c;
+    text-align: justify;
+   /*margin-left: 300px;*/
+    margin-bottom: -16px;
+
+}
+
+table{
+    border: 1px solid;
+    background-color: black;
+    text-align: justify;
+    width: 750px;
+}

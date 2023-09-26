@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/JavaScript" src="script.js"></script>
+    <title>Atividade 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Selecione sua opção:</h1>
+    <input type="number" id="opcao">
+    <button onclick="escolher()" class="botaoIr" >Ir</button> 
+
+    <button onclick="limpar()" class ="botaoLimpar">Limpar</button> 
+    
+    <br>
+
+
+    <p class="selecione" id="selecioneTab" style="visibility: hidden;">Selecione sua Tabuada: </p>
+    <input type="number" class= "numTab" id="numTab" style="visibility: hidden;" >
+    <button onclick="calcular()" id="btNumTab" style="visibility: hidden;" >Calcular</button> <br>
+    
+
+    <br> 
+
+    <div id = "conteudoD"class="conteudoD" style="visibility: hidden;">
+         <p id="conteudo" class="conteudoE"></p>
+    </div>
+
+
+   <BR> <table border=1 widht="100%">
+            <h2>ㅤREGRAS:</h2>
+            <p class ="regras">
+                <td class="regras">ㅤDIGITE 1 PARA ESCOLHER A TABUADA QUE VOCÊ DESEJA EXIBIR <br>
+                    ㅤDIGITE 2 PARA VER SOMENTE AS TABUADAS PARES DE 1 A 10 <br>
+                    ㅤDIGITE 3 PARA VER SOMENTE AS TABUADAS ÍMPARES DE 1 A 10<br>
+                    ㅤDIGITE 4 PARA VER TODAS AS TABUADAS DE 1 A 10
+                </p> </td>
+
+    </table>
+
+
+
+    <script type="text/javascript" src="script.js"></script>    
+</body>
+</html>
